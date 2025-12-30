@@ -10,7 +10,6 @@ public class Main {
             System.out.println("  addNode(" + value + ")");
             tree.addNode(value);
         }
-
         System.out.println();
         tree.printInOrder();;
         System.out.println("Number of leaves: " + tree.countLeaves());

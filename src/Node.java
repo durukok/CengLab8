@@ -1,7 +1,7 @@
 public class Node {
     int data;
-    Node right;
-    Node left;
+    Node right,left;
+
     public Node(int data) {
         this.data = data;
         this.right=null;
